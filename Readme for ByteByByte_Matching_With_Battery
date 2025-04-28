@@ -1,0 +1,10 @@
+Readme for ByteByByte_Matching_With_Battery.py
+----------------------------------------------
+
+
+1.Only change in this python code from the previous version is the addition of new route for Battery charge detection.
+2.FPS device is now with integrated battery and is expected to report current battery percentage before every Detection.
+3.Device configuration and Enroll activities are expected to be done with usb cable connected mode and currently battery charge reporting is disabled here.
+4.With battery integration FPS device low power state(Light Sleep) is enabled and device will automatically enter low power state after battery charge reporting inorder to save battery charge.
+5.User can touch the sensor for waking up the device and get ready for finger print detection(steady white ring light).
+6.Please use your PC usb port to charge the device with the provided type-c usb cable.
